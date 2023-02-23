@@ -1,12 +1,11 @@
 import React from "react";
 import Nav from "./Header/Navbar";
-import {Routes,Route, useParams} from 'react-router-dom';
+import {Routes,Route, Form} from 'react-router-dom';
 import About from "./Header/About"
 import Economy from "./Header/Economy"
-import Contact from "./Header/Contact"
 import './App.css'
-import Main from "./Header/Main";
-
+import {Main, Item} from "./Header/Main";
+import Sub from "./Footer/Subscription"
 
 function App() {
   return (
@@ -15,9 +14,11 @@ function App() {
     <Routes>
     <Route path="/" element={<Main/>}/>
     <Route path="/about" element={<About />}/>
-    <Route path="/contact" element={<Contact />}/>
     <Route path="/economy" element={<Economy />}/>
+    <Route path="/item/:id" element={<Item />} />
     </Routes>
+    <Sub/> 
+ 
     </div>
   )
 }

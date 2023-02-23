@@ -19,7 +19,6 @@
 
 .MainPart{
     display: flex;
-    width:100%;
     height: auto;
     box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
     overflow: hidden;
@@ -37,10 +36,11 @@ border: 15px solid rgb(226, 204, 224);
    */
 }
 .imgs img{
-width: 300px;
-height: auto;
+width: 400px;
+margin: 11px;
+height: 250px;
 border-radius: 25%;
-padding: 20px;
+padding: 10px;
 object-fit: cover;
 transition: .3s ease;
 }
@@ -51,3 +51,30 @@ font-style: oblique;
  padding:20px ;
 visibility: hidden;
 }
+h2{
+    margin: 30px;
+}
+.foot{
+    /* display: flex; */
+    background-color: #9ca8bb;
+ overflow: hidden;
+}
+
+ .sub1{
+width: 200px;
+height: auto;
+padding: 10px;
+/* flex-direction: column; */
+background-color: #696669;
+margin-inline-start: 35px;
+
+
+}
+.icon{
+    display: flex;
+}
+.icon img{
+ width: 40px;
+ height: 40px;
+}
+    
