@@ -2,6 +2,7 @@
     box-sizing:border-box;
     margin: 0;
     padding: 0;
+
 }
 .leftcorner{
     display: flex;
@@ -10,6 +11,7 @@
     justify-content: space-between;
     background-color: #9ca8bb;
     font-family: 'Times New Roman', Times, serif;
+      
 }
 .inp{
     border-radius: 10px 10px;
@@ -21,10 +23,11 @@
     display: flex;
     height: auto;
     box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
-    overflow: hidden;
+ 
 }
 .MainPart:hover .ptag{
     visibility: visible;
+    
 }
 .MainPart:hover img{
     transform: scale(1.1);
@@ -55,26 +58,84 @@ h2{
     margin: 30px;
 }
 .foot{
-    /* display: flex; */
-    background-color: #9ca8bb;
+background-color: #9ca8bb;
  overflow: hidden;
+ background-position: bottom;
+
 }
 
  .sub1{
 width: 200px;
 height: auto;
-padding: 10px;
-/* flex-direction: column; */
-background-color: #696669;
+padding: 5px 5px;
+background-color: #9ca8bb;
 margin-inline-start: 35px;
 
+}
 
-}
-.icon{
-    display: flex;
-}
 .icon img{
  width: 40px;
  height: 40px;
+ padding: 5px 5px;
+
 }
-    
+.foot .col{
+    width: 190px;
+  height: auto;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 0px 20px 20px 20px;
+
+}
+.foot .col h2 {
+    margin: 0;
+    padding: 0;
+    font-family: inherit;
+    font-size: 12px;
+    line-height: 17px;
+    padding: 20px 0px 5px 0px;
+    color: rgba(12, 11, 11,);
+    text-transform: uppercase;
+    letter-spacing: 0.250em;
+  }
+  .foot .col ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   
+  }
+  .foot .col ul li {
+    color: #252525;
+    font-size: 14px;
+    font-family: inherit;
+    font-weight: bold;
+    padding: 5px 0px 5px 0px;
+    cursor: pointer;
+    transition: .2s;
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+  
+  }
+  .foot .col ul li:hover {
+    color: #f8f2f2;
+    transition: .1s;
+    -webkit-transition: .1s;
+    -moz-transition: .1s;
+  }
+  .cols{
+    display: flex;
+  }
+  .social h2 {
+    margin: 0px;
+  }
+    .social ul li{
+        
+        display: inline-block;
+        padding-right: 5px !important;
+      }
+      .social img{
+        width: 20px;
+        height: 20px;
+
+      }
