@@ -53,7 +53,7 @@
                                         </div>
                                                                         </div> 
 
-        <div class="col social">
+        <div className="col social">
                 <h2>Social</h2>
         <ul>
                 <li> <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png"   />  </li>

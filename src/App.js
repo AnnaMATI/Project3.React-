@@ -4,7 +4,7 @@ import {Routes,Route, Form} from 'react-router-dom';
 import About from "./Header/About"
 import Economy from "./Header/Economy"
 import './App.css'
-import {Main, Item} from "./Header/Main";
+import { Main, Item }  from "./Header/Main";
 import Sub from "./Footer/Subscription"
 
 function App() {
